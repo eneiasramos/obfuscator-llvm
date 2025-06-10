@@ -15,6 +15,7 @@
 
 #include <type_traits>
 #include <utility>
+#include <stdint.h>
 
 #include "xray-extract.h"
 

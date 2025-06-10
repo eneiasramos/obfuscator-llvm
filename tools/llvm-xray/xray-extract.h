@@ -19,6 +19,7 @@
 #include <map>
 #include <string>
 #include <unordered_map>
+#include <stdint.h>
 
 #include "xray-sleds.h"
 #include "llvm/Support/Error.h"
