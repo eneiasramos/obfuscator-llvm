@@ -16,6 +16,10 @@ documentation setup.
 If you are writing a package for LLVM, see docs/Packaging.rst for our
 suggestions.
 
+# WIKI
+
+https://github.com/obfuscator-llvm/obfuscator/wiki
+
 # Instructions
 
 git clone -b llvm-4.0 https://github.com/eneiasramos/obfuscator-llvm.git
