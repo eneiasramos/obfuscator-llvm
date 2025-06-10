@@ -15,3 +15,12 @@ documentation setup.
 
 If you are writing a package for LLVM, see docs/Packaging.rst for our
 suggestions.
+
+# Instructions
+
+git clone -b llvm-4.0 https://github.com/eneiasramos/obfuscator-llvm.git
+mkdir build
+cd build
+cmake -DLLVM_INCLUDE_TESTS=OFF -DCMAKE_BUILD_TYPE=Release ../obfuscator-llvm/
+make -j$(nproc)
+
