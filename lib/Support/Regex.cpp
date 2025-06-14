@@ -11,6 +11,7 @@
 //
 //===----------------------------------------------------------------------===//
 
+#include <regex.h>
 #include "llvm/Support/Regex.h"
 #include "regex_impl.h"
 #include "llvm/ADT/SmallVector.h"

@@ -1,6 +1,6 @@
 # See docs/CMake.html for instructions about how to build LLVM with CMake.
 
-cmake_minimum_required(VERSION 3.4.3)
+cmake_minimum_required(VERSION 3.10)
 
 if(POLICY CMP0022)
   cmake_policy(SET CMP0022 NEW) # automatic when 2.8.12 is required
@@ -12,7 +12,7 @@ if (POLICY CMP0051)
   # stripped everywhere that access the SOURCES property, so we just
   # defer to the OLD behavior of not including generator expressions
   # in the output for now.
-  cmake_policy(SET CMP0051 OLD)
+  cmake_policy(SET CMP0051 NEW)
 endif()
 
 if(POLICY CMP0057)

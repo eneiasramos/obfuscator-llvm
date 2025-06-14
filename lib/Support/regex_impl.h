@@ -35,8 +35,8 @@
  *	@(#)regex.h	8.1 (Berkeley) 6/2/93
  */
 
-#ifndef _REGEX_H_
-#define	_REGEX_H_
+#ifndef _LIB_SUPPORT_REGEX_H_
+#define	_LIB_SUPPORT_REGEX_H_
 
 #include <sys/types.h>
 typedef off_t llvm_regoff_t;
