@@ -303,10 +303,12 @@ if (LLVM_COMPILER_IS_GCC_COMPATIBLE)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pedantic -Wno-long-long")
   endif ()
 
+if (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   check_cxx_compiler_flag("-Werror -Wnested-anon-types" CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG)
   if( CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG )
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-nested-anon-types" )
   endif()
+endif ()
 endif ()
 
 # Determine HOST_LINK_VERSION on Darwin.
