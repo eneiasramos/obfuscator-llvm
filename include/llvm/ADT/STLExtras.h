@@ -26,6 +26,7 @@
 #include <memory>
 #include <tuple>
 #include <utility> // for std::pair
+#include <cstdint>
 
 #include "llvm/ADT/Optional.h"
 #include "llvm/ADT/iterator.h"
